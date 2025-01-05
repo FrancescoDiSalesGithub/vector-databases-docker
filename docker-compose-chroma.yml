@@ -1,0 +1,6 @@
+version: '3.6'
+services:
+  container_name: chromadb
+  image: chromadb/chroma
+  ports:
+    - '8000:8000'
